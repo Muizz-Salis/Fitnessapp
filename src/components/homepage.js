@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Homepage() {
 
@@ -47,7 +49,7 @@ export default function Homepage() {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
 
       {/* Main Section */}
       <div className="flex flex-col md:flex-row justify-between items-center p-8 md:p-12 bg-black text-white">
@@ -96,12 +98,12 @@ export default function Homepage() {
       {/* not sure where to start */}
     
       <section class="py-8 bg-[#111111]">
-  <div className="max-w-7xl mx-auto px-6">
-    <h3 className="text-3xl font-semibold text-white text-center mb-6">Not sure where to start</h3>
-    <p className="text-lg text-[#EFEDE8A6] text-center mb-8">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-semibold text-white text-center mb-6">Not sure where to start</h3>
+    <p class="text-lg text-[#EFEDE8A6] text-center mb-8">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
   </div>
 
-  <div className="flex flex-wrap gap-3 justify-center ">
+  <div class="flex flex-wrap gap-3 justify-center ">
     {programs.map((program, index) => (
       <div key={index} className="bg-[#181717] rounded-lg p-6 w-80 shadow-lg hover:shadow-xl transition-shadow duration-300">
         <h3 className="text-xl font-semibold text-white mb-4">{program.title}</h3>
@@ -113,7 +115,7 @@ export default function Homepage() {
 
 {/* explore our package */}
 
-<section className="py-16 px-6 bg-gray-900 text-white">
+<section class="py-16 px-6 bg-gray-900 text-white">
 <div className="text-center mx-auto">
   <h2 className="text-4xl font-semibold text-white mb-6">Explore our Package</h2>
   <p className="text-lg text-[#EFEDE8A6] leading-relaxed max-w-2xl mx-auto mb-12">
@@ -123,12 +125,12 @@ export default function Homepage() {
 </div>
 
   {/* <!-- Cards Section --> */}
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
   
     {/* <!-- Card 1 --> */}
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#EC7807]">
-      <h4 className="text-xl font-semibold text-[#EC7807] mb-4">Join for Free</h4>
-      <p className="text-lg text-[#EFEDE8A6] mb-6">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#EC7807]">
+      <h4 class="text-xl font-semibold text-[#EC7807] mb-4">Join for Free</h4>
+      <p class="text-lg text-[#EFEDE8A6] mb-6">
         Reach your fitness goals or maintain your healthy lifestyle with professional training 
         and support from a positive and active online community.
       </p>
@@ -143,13 +145,13 @@ export default function Homepage() {
     </div>
 
     {/* <!-- Card 2 --> */}
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#EC7807]">
-      <h4 className="text-xl font-semibold text-[#EC7807] mb-4">Advance</h4>
-      <p className="text-lg text-[#EFEDE8A6] mb-6">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#EC7807]">
+      <h4 class="text-xl font-semibold text-[#EC7807] mb-4">Advance</h4>
+      <p class="text-lg text-[#EFEDE8A6] mb-6">
         Yanyan Plus includes everything you get with a free membership and adds brand new convenience features, 
         fitness tools, and unique content.
       </p>
-      <ul className="list-disc pl-6 text-white space-y-2">
+      <ul class="list-disc pl-6 text-white space-y-2">
         <li>Ads-Free Website and Videos</li>
         <li>Surprise Me Workout Selection Tool</li>
         <li>Statistics for Your Activities</li>
@@ -316,7 +318,7 @@ export default function Homepage() {
 
 {/* subscription */}
 
-<section className="bg-black">
+<section>
   <div className="max-w-7xl mx-auto px-6 py-12 border-2 border-[#EC7807] my-2 ">
     <h2 className="text-4xl font-semibold text-white text-center mb-6">Subscribe to our Newsletter</h2>
     <p className="text-lg text-[#EFEDE8A6] text-center mb-8">Get the latest health and fitness news, exclusive offers, and more delivered straight to your inbox.</p>
@@ -328,7 +330,7 @@ export default function Homepage() {
 </section>
 
 {/* footer */}
-{/* <Footer/> */}
+<Footer/>
     </div>
   );
 }

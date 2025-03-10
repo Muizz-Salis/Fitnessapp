@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function ThankYou() {
@@ -9,9 +10,9 @@ export default function ThankYou() {
         style={{ backgroundImage: "url('/Thanks.jpeg')" }} >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div>
-                    <p className=" mx-12 relative text-2xl text-white font-bold mb-4">FI <span className="bg-orange-500 text-white  rounded-tl-lg rounded-br-lg">
+                    <Link href={'/'} className=" mx-12 relative text-2xl text-white font-bold mb-4">FI <span className="bg-orange-500 text-white  rounded-tl-lg rounded-br-lg">
       t
-    </span> ZONE.</p>
+    </span> ZONE.</Link>
                 </div>
                 <div className="relative z-5 text-center px-6 max-w-2xl mx-auto">
                     <h2 className="text-4xl text-[#EC7807] font-bold mb-4">

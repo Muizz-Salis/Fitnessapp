@@ -29,8 +29,9 @@ export default function AskQuestion() {
             meet our trainers and start your fitness journey today!
           </p>
         </div>
-
+          {/* Trainers section */}
         <main className="max-w-8xl mx-auto">
+          {/* First trainer */}
           <div className="flex relative px-8 ms-6 before:absolute before:bottom-0 before:left-0 before:w-full before:h-[4px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black">
             <div className="relative flex">
               <Image
@@ -59,7 +60,7 @@ export default function AskQuestion() {
               </div>
             </div>
           </div>
-
+          {/* Second trainer */}
           <div className="flex relative px-8 ms-6 before:absolute before:bottom-0 before:left-0 before:w-full before:h-[4px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black">
             <div className="relative flex">
               <Image
@@ -88,7 +89,7 @@ export default function AskQuestion() {
               </div>
             </div>
           </div>
-
+          {/* Third trainer */}
           <div className="flex relative px-8 ms-6 ">
             <div className="relative flex">
               <Image

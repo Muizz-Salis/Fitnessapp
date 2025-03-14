@@ -2,8 +2,7 @@ export default function Component1() {
   return (
     <div className="min-h-screen bg-black">
       <section>
-        <h1 className="text-4xl font-bold text-white">Component 1</h1>
-
+        {/* First Section */}
         <div className="flex flex-col lg:flex-row gap-4 justify-center p-6 items-stretch ">
           <div className="flex flex-col gap-2  h-full lg:w-1/3  ">
             <div className="relative border-2 border-orange-500 rounded-lg p-8 pb-28 h-full bg-black">
@@ -78,24 +77,23 @@ export default function Component1() {
             </div>
           </div>
         </div>
-
+        {/* Second Section */}
         <div className="flex flex-col lg:flex-row gap-4 justify-center p-2  items-stretch ">
           <div className="flex flex-col gap-2 lg:w-1/3  ">
             <div className="relative border-2 border-orange-500 rounded-lg p-2 bg-gray-800">
-            <img
+              <img
                 src="/vector.svg"
-                alt="Personal Training"
+                alt="Beginner"
                 className="absolute top-4 right-4 w-12 h-12  mx-auto shadow-lg"
               />
               <div className="mt-16">
-              <p className=" text-[#EC7807] mb-2"> Beginner Plan</p>
-              <div className=" text-[#EC7807] mb-4 flex">
-              <h2 className="text-4xl font-bold ">
-                #0
-              </h2> <span className=" mt-4">/Month</span>
+                <p className=" text-[#EC7807] mb-2"> Beginner Plan</p>
+                <div className=" text-[#EC7807] mb-4 flex">
+                  <h2 className="text-4xl font-bold ">#0</h2>{" "}
+                  <span className=" mt-4">/Month</span>
+                </div>
               </div>
-              </div>
-             
+
               <ul className="list-disc mx-2 mb-28 text-white pl-5">
                 <li>600 Full-Lenght Workout Video</li>
                 <li>Customizable Calendar</li>
@@ -105,25 +103,24 @@ export default function Component1() {
                 <li>No Credit Card Nedeed</li>
               </ul>
               <button className="bg-orange-500 w-full items-center justify-center flex mt-4 text-black py-5 text-lg  mx-auto rounded-lg font-semibold hover:bg-orange-800 transition duration-300">
-              Join Now
-            </button>
+                Join Now
+              </button>
             </div>
           </div>
 
           <div className="flex flex-col  gap-2 lg:w-1/3 ">
             <div className="relative border-2 border-orange-500 rounded-lg p-2 bg-gray-800">
-            <img
+              <img
                 src="/vector2.svg"
-                alt="Personal Training"
+                alt="Advance"
                 className="absolute top-4 right-4 w-12 h-12  mx-auto shadow-lg"
               />
               <div className="mt-16">
-              <p className=" text-[#EC7807] mb-2">Advance Plan</p>
-              <div className=" text-[#EC7807] mb-4 flex">
-              <h2 className="text-4xl font-bold ">
-                #10,000
-              </h2> <span className=" mt-4">/Month</span>
-              </div>
+                <p className=" text-[#EC7807] mb-2">Advance Plan</p>
+                <div className=" text-[#EC7807] mb-4 flex">
+                  <h2 className="text-4xl font-bold ">#10,000</h2>{" "}
+                  <span className=" mt-4">/Month</span>
+                </div>
               </div>
 
               <ul className="list-disc mx-2 mb-8 text-white pl-5">
@@ -139,27 +136,26 @@ export default function Component1() {
                 <li>Rest Day Complete</li>
               </ul>
               <button className="bg-orange-500 w-full items-center justify-center flex mt-4 text-black py-5 text-lg  mx-auto rounded-lg font-semibold hover:bg-orange-800 transition duration-300">
-              Join Now
-            </button>
+                Join Now
+              </button>
             </div>
           </div>
 
           <div className="flex flex-col  gap-2 lg:w-1/3 ">
             <div className="relative border-2 border-orange-500 rounded-lg p-2 bg-gray-800">
-            <img
+              <img
                 src="/vector3.svg"
-                alt="Personal Training"
+                alt="Professional"
                 className="absolute top-4 right-4 w-12 h-12  mx-auto shadow-lg"
               />
               <div className="mt-16">
-              <p className=" text-[#EC7807] mb-2">Professional Plan</p>
-              <div className=" text-[#EC7807] mb-4 flex">
-              <h2 className="text-4xl font-bold ">
-                #15,000
-              </h2> <span className=" mt-4">/Month</span>
+                <p className=" text-[#EC7807] mb-2">Professional Plan</p>
+                <div className=" text-[#EC7807] mb-4 flex">
+                  <h2 className="text-4xl font-bold ">#15,000</h2>{" "}
+                  <span className=" mt-4">/Month</span>
+                </div>
               </div>
-              </div>
-             
+
               <ul className="list-disc mx-2 mb-8 text-white pl-5">
                 <li>Ads-Free Website and Videos</li>
                 <li>Surprise Me Workout Selection Tool</li>
@@ -173,8 +169,8 @@ export default function Component1() {
                 <li>Rest Day Complete</li>
               </ul>
               <button className="bg-orange-500 w-full items-center justify-center flex mt-4 text-black py-5 text-lg  mx-auto rounded-lg font-semibold hover:bg-orange-800 transition duration-300">
-              Join Now
-            </button>
+                Join Now
+              </button>
             </div>
           </div>
         </div>

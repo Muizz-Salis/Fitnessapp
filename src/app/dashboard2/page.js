@@ -14,7 +14,7 @@ export default function Dashboard2() {
         <Navbar2 />
 
         <div className="relative z-10 py-4 container-fluid mx-auto px-8 ">
-          {/* Responsive Grid */}
+          
           <div className="flex flex-col lg:flex-row gap-2">
             {/* First Column - Profile Section */}
             <div
@@ -25,7 +25,7 @@ export default function Dashboard2() {
               <div className="text-center p-4 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black">
                 <img
                   src="/ponmile.jpeg"
-                  alt="Profile"
+                  alt="Ponmile"
                   className="w-24 h-24 border-2 border-orange-500 rounded-full mx-auto mb-4"
                 />
                 <h2 className="text-xl text-white text-center">
@@ -36,7 +36,7 @@ export default function Dashboard2() {
               <div className="text-center flex p-2 gap-2 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black">
                 <img
                   src="/imagerun.svg"
-                  alt="Profile"
+                  alt="run"
                   className="w-34 h-45  mx-auto mb-4"
                 />
                 <div className="py-8">
@@ -55,13 +55,13 @@ export default function Dashboard2() {
               <div className="text-center p-2 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black">
                 <img
                   src="/target.svg"
-                  alt="Profile"
+                  alt="Target"
                   className="w-50 h-50  mx-auto mb-4"
                 />
               </div>
             </div>
 
-            {/* Second Column - Some Other Segment */}
+            {/* Second Column*/}
             <div className="lg:w-2/5 mx-auto relative pt-2  ">
               <div
                 className="relative mx-auto mt-2  pt-6 bg-black  border-t-2 border-b-2 rounded-lg  border-orange-500 overflow-hidden  before:absolute before:top-0 before:right-0 before:w-[1px] before:h-full before:bg-gradient-to-b before:from-orange-500 before:via-black before:to-orange-500
@@ -77,11 +77,8 @@ export default function Dashboard2() {
                     100%
                   </div>
                   <div className="text-center text-white rounded-md mx-auto w-12 absolute top-0 left-1/2 -translate-x-1/2 -translate-y-5 z-100 mt-36">
-                  
-                  <p className="text-3xl font-extrabold">82%</p>
-                  <span className="fw-bolder">steps</span>
-                  
-
+                    <p className="text-3xl font-extrabold">82%</p>
+                    <span className="fw-bolder">steps</span>
                   </div>
                   <img
                     src="/semicircle.svg"
@@ -137,7 +134,7 @@ export default function Dashboard2() {
               </div>
             </div>
 
-            {/* Third Column - Charts & Reviews */}
+            {/* Third Column*/}
             <div className="lg:w-2/5  pt-2 rounded-lg shadow-lg">
               <div className="flex flex-col lg:flex-row gap-2">
                 <div className="lg:w-2/3 mx-auto relative   ">
@@ -148,7 +145,7 @@ export default function Dashboard2() {
                     <div className="flex relative mb-6  justify-between w-full mx-auto ">
                       <img
                         src="/10mins.jpeg"
-                        alt="Profile"
+                        alt="10mins"
                         className="w-50 h-50 rounded-lg  mx-auto mb-1"
                       />
                     </div>
@@ -159,7 +156,7 @@ export default function Dashboard2() {
                       <div className=" mb-2 w-full">
                         <img
                           src="/down.svg"
-                          alt="Profile"
+                          alt="down"
                           className="w-6 h-6  rounded-lg  mx-auto mb-1"
                         />
                       </div>
@@ -174,7 +171,7 @@ export default function Dashboard2() {
                     <div className="text-center  p-4 relative ">
                       <img
                         src="/ponmile.jpeg"
-                        alt="Profile"
+                        alt="ponmile"
                         className="w-24 h-24 border-2 border-orange-500 rounded-full mx-auto mb-4"
                       />
                       <h2 className="text-xl mb-2 text-white text-center">
@@ -196,9 +193,9 @@ export default function Dashboard2() {
 
                   <div className="text-lg text-center text-white w-full">
                     <button>
-                    <img
+                      <img
                         src="/arrow_right.svg"
-                        alt="Profile"
+                        alt="arrow_right"
                         className="w-8 h-8  mx-auto"
                       />
                     </button>
@@ -212,21 +209,21 @@ export default function Dashboard2() {
               >
                 <div className="flex justify-between  mx-auto ">
                   <div className="text-lg text-center text-white  w-full">
-                  <img
-                        src="/yellow.png"
-                        alt="Profile"
-                        className="w-12 h-12 border-2 rounded-full mx-auto mb-4"
-                      />
+                    <img
+                      src="/yellow.png"
+                      alt="Yellow"
+                      className="w-12 h-12 border-2 rounded-full mx-auto mb-4"
+                    />
                   </div>
                   <div className="text-lg text-white  w-full">
-                  <p className="text-2xl font-extrabold">Yoga with Sarah</p>
+                    <p className="text-2xl font-extrabold">Yoga with Sarah</p>
                     <p className="text-1xl">40 min</p>
                   </div>
                   <div className="text-lg text-center text-white w-full">
                     <button>
-                    <img
+                      <img
                         src="/check.svg"
-                        alt="Profile"
+                        alt="Check"
                         className="w-8 h-8  mx-auto"
                       />
                     </button>
@@ -235,11 +232,10 @@ export default function Dashboard2() {
               </div>
 
               <img
-                        src="/Frame.png"
-                        alt="Profile"
-                        className="w-full h-60 mt-2 mx-auto"
-                      />
-
+                src="/Frame.png"
+                alt="Frame"
+                className="w-full h-60 mt-2 mx-auto"
+              />
             </div>
           </div>
         </div>

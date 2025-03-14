@@ -1,10 +1,14 @@
 "use client"
-import Homepage from "@/components/homepage";
+
+import Home2 from "@/components/Home2";
+
+// import Homepage from "@/components/homepage";
 
 export default function Home() {
   return (
 <div>
-  <Homepage/>
+  {/* <Homepage/> */}
+  <Home2/>
 </div>
   );
 }

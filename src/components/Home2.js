@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Footer from "../../components/Footer";
 import Nav2 from "@/components/Nav2";
+import Footer from "./Footer";
 
-export default function Homepage2() {
+export default function Home2() {
 
   const achievements = [
     {

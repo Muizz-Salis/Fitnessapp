@@ -23,7 +23,7 @@ export default function ContactSection() {
             <div className="border border-orange-500 p-10 flex flex-col items-center transform skew-y-6 md:skew-y-3 h-80 flex justify-center">
               <div className="text-orange-500 text-5xl mb-6">💬</div>
               <h3 className="text-xl font-semibold">LIVE CHAT</h3>
-              <p className="mt-2 text-base text-center">For immediate assistance, use the live chat feature in the app for quick responses from our support team.</p>
+              <p className="mt-2 text-base text-center">For immediate assistance, use the live chat feature in the app for quick responses from our support team..</p>
             </div>
           </div>
         </div>

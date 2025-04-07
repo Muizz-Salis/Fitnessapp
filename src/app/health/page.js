@@ -28,7 +28,7 @@ export default function HealthForm() {
       <div className="w-full lg:w-1/2 p-8">
         <h1 className="text-3xl font-bold mb-6">Health and lifestyle</h1>
 
-        {/* Medical Conditions */
+      * Medical Conditions */
         <div className="mb-6">
           <p className="text-lg font-semibold text-orange-500">
             Do you have any medical conditions or injuries that could affect your workout?

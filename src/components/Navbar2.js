@@ -14,7 +14,7 @@ export default function Navbar2() {
   };
   return (
     <>
-      <nav className="bg-black bg-opacity-50 text-[#ec7807] shadow-lg relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[4px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black">
+      <nav className="bg-black bg-opacity-50 text-[#ec7807] shadow-lg relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[4px] before:bg-gradient-to-r before:from-black before:via-orange-500 before:to-black z-[9999]">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
           {/* Logo with Link to Homepage */}
           <Link
@@ -76,9 +76,9 @@ export default function Navbar2() {
               </svg>
             </Link>
             <Link
-              href="/ask-question"
+              href="/"
               className={`block md:inline-block px-2 py-2 rounded-lg transition hover:text-white ${
-                router.pathname === "/ask-question" ? "underline" : ""
+                router.pathname === "/" ? "underline" : ""
               }`}
             >
               Home
@@ -113,7 +113,7 @@ export default function Navbar2() {
 
                 {/* Notification Badge */}
                 <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                  5 {/* Change this number dynamically */}
+                  5 
                 </span>
               </div>
             </Link>
@@ -148,7 +148,7 @@ export default function Navbar2() {
 
               {/* Dropdown Menu */}
               {dropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-50">
+                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-4 z-[9999]">
                   <Link
                     href="/profile"
                     className="block px-4 py-2 text-sm hover:bg-gray-100"
@@ -161,12 +161,12 @@ export default function Navbar2() {
                   >
                     Settings
                   </Link>
-                  <Link
-                    href="/logout"
+                  <button
+                    onClick={() => handleLogout()}
                     className="block px-4 py-2 text-sm text-red-500 hover:bg-gray-100"
                   >
                     Logout
-                  </Link>
+                  </button>
                 </div>
               )}
             </div>

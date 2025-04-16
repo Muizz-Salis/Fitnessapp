@@ -26,7 +26,7 @@ const NutritionGuide = () => {
                 </div>
             </nav>
 
-            {/* Nutrition Guide Section */}``
+            {/* Nutrition Guide Section */}
             <div className="text-center py-10">
                 <h2 className="text-3xl font-bold">Nutrition Guide</h2>
                 <p className="mt-2 text-gray-400 px-4 max-w-2xl mx-auto">

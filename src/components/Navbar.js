@@ -14,9 +14,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
         {/* Logo with Link to Homepage */}
         <Link href="/">
-          <h1 className="text-2xl font-bold text-white cursor-pointer transition">
-            FITZONE
-          </h1>
+          <div className="text-2xl font-bold text-white">Fitzone</div>
+
         </Link>
 
         {/* Hamburger Menu for Mobile */}

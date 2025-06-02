@@ -50,6 +50,7 @@ export default function Homepage() {
   return (
     <div>
       <Navbar />
+      
 
       {/* Main Section */}
       <div className="flex flex-col md:flex-row justify-between items-center p-8 md:p-12 bg-black text-white">

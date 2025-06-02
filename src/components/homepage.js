@@ -55,7 +55,7 @@ export default function Homepage() {
       <div className="flex flex-col md:flex-row justify-between items-center p-8 md:p-12 bg-black text-white">
         {/* Text Section */}
         <section className="max-w-full md:max-w-[50%] text-center md:text-left mb-8 md:mb-0">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#EC7807] mb-4">DON'T STOP!</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#EC7807] mb-4">DON&apos;T STOP!</h2>
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">WORKOUT</h1>
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">AT HOME</h1>
           <p className="text-[18px] md:text-[20px] text-[#EFEDE8A6] mb-8">
@@ -319,9 +319,9 @@ export default function Homepage() {
 {/* subscription */}
 
 <section>
-  <div className="max-w-7xl mx-auto px-6 py-12 border-2 border-[#EC7807] my-2 ">
-    <h2 className="text-4xl font-semibold text-white text-center mb-6">Subscribe to our Newsletter</h2>
-    <p className="text-lg text-[#EFEDE8A6] text-center mb-8">Get the latest health and fitness news, exclusive offers, and more delivered straight to your inbox.</p>
+  <div className="max-w-7xl mx-auto px-6 py-12 my-2 ">
+    <h2 className="text-4xl font-semibold  text-center mb-6">Subscribe to our Newsletter</h2>
+    <p className="text-lg  text-center mb-8">Get the latest health and fitness news, exclusive offers, and more delivered straight to your inbox.</p>
     <form className="flex flex-col md:flex-row gap-4 max-w-3xl mx-auto">
       <input type="email" placeholder="Enter your email" className="bg-gray-800 text-white px-4 py-3 rounded-lg w-full" />
       <button className="bg-[#EC7807] text-black px-8 py-3 rounded-lg text-lg font-semibold hover:bg-[#ec7907d5] transition-colors">Subscribe</button>

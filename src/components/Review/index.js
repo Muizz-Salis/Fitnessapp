@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
-import axios from "axios";
+// import axios from "axios";
 
 export default function FeedbackModal({ onClose }) {
   const [selectedEmoji, setSelectedEmoji] = useState(null);
@@ -31,24 +31,24 @@ export default function FeedbackModal({ onClose }) {
       comment: comment.trim(),
     };
 
-    try {
-      const response = await axios.post(
-        "http://localhost:4000/api/user/feedback",
-        feedbackData
-      );
-      console.log("Feedback Submitted:", response.data);
+  //   try {
+  //     const response = await axios.post(
+  //       "http://localhost:4000/api/user/feedback",
+  //       feedbackData
+  //     );
+  //     console.log("Feedback Submitted:", response.data);
 
-      alert("Feedback submitted successfully!");
-      setSelectedEmoji(null);
-      setComment("");
-      onClose(); 
-    } catch (error) {
-      console.error("Error submitting feedback:", error);
-      alert("Failed to submit feedback. Please try again.");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     alert("Feedback submitted successfully!");
+  //     setSelectedEmoji(null);
+  //     setComment("");
+  //     onClose(); 
+  //   } catch (error) {
+  //     console.error("Error submitting feedback:", error);
+  //     alert("Failed to submit feedback. Please try again.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+   };
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/70">

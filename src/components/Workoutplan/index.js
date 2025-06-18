@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Navbar2 from "../Navbar2";
 
 const days = [
   "Monday",
@@ -54,7 +55,8 @@ const workouts = {
 export default function WorkoutPlanner() {
   return (
     <div className="min-h-screen bg-black text-white px-4 py-8">
-      <div className="max-w-7xl mx-auto">
+      <Navbar2/>
+      <div className="max-w-7xl mx-auto mt-9">
         
         <div className="overflow-x-auto">
           <div className="grid grid-cols-8 gap-4 text-center">

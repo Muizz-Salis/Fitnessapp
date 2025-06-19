@@ -6,7 +6,7 @@ export default function Dashboard2() {
   return (
     <div className="min-h-screen py-6 bg-black">
       <section
-        className="relative   items-center justify-center bg-cover bg-center"
+        className="relative items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: "url('/darkbck.png')" }}
       >
         <div className="absolute inset-0 bg-black opacity-80"></div>

@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 
 export default function ForgotPassword() {
     return (
+        
         <div className="min-h-screen">
             {/* Navbar */}
             <Navbar />
